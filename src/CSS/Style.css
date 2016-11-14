@@ -1,3 +1,7 @@
+.my_section {
+    padding-top: 70px;
+    padding-left: 20px;
+}
 .panel_footer{
     position: fixed;
     left: 0px;
