@@ -1,3 +1,4 @@
+
 .my_section {
     padding-top: 70px;
     padding-left: 20px;
@@ -9,6 +10,7 @@
     bottom: 0px;
     width: 100%;
     text-align: center;
+    background-color: #000000;
 }
 
 #nav {
@@ -18,8 +20,6 @@
     margin:0;
     height: inherit;
 
-
-
 }
 
 #start_overskrift{
@@ -27,3 +27,30 @@
     font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
+
+#home, #guidesAndGurus, #app{
+    background-color: #dfdfdf;
+    text-align: center;
+
+}
+
+#app {
+
+    text-align: center;
+
+
+}
+
+#ourVision, #ourUniverse, #globeGurus {
+
+    text-align: center;
+
+}
+
+#pic1{
+    text-align: center;
+
+}
+
+
+
