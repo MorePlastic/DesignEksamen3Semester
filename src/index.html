@@ -9,8 +9,6 @@
     <title>Globe Guides</title>
 </head>
 
-<body>
-
 <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -19,7 +17,7 @@
                 <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
             <a href="#frontSection" class="navbar-brand">Globe Guides</a></div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" id="tabs">
                 <li role="presentation"><a href="#frontSection">Home</a></li>
                 <li role="presentation"><a href="#ourVision">Our Vision</a></li>
                 <li role="presentation"><a href="guides.html">Guides & Gurus</a></li>
@@ -30,7 +28,7 @@
     </div>
 </nav>
 
-<div class="container-fluid">
+<div class="container-fluid" id="container">
     <section id="frontSection" class="row">
         <div class="col-lg-12 noPadding" >
             <h1 id="title">Globe Guides</h1>
@@ -44,7 +42,7 @@
 
     <section id="cityPreview" class="row">
         <div class="col-lg-12">
-            <h1 class="headers">City Preview</h1>
+            <h1>City Preview</h1>
 
             <!-- carousel starts here -->
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -98,32 +96,110 @@
 
     <section id="ourVision" class="row">
         <div class="col-lg-12">
-            <h1 class="headers">Our Vision</h1>
+            <h1>Our Vision</h1>
+                <div class="centerText">
+                    <div class="col-lg-6">
+                        <h2>Our Story</h2>
+                        <p>Lorem ipsum dolor sit amet, eget consequat, vivamus lectus lectus vel in cras nonummy,
+                            ornare sit nibh per nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,
+                            nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur. Sodales nec. Felis sed nec ligula erat fringilla arcu,
+                            orci et dui phasellus, ut velit ut curabitur donec, wisi morbi diam consequat quis dis in. Bibendum eget quis ultricies at arcu fermentum,
+                            facilisis aliquam, aperiam vel, odio lorem sit arcu. Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,
+                            eget fusce venenatis dictum nec tristique, netus vitae pellentesque magna sodales eros erat, erat vitae lectus nunc aliquam, elit risus libero.
+                            Elementum mauris elit class, eget sit posuere congue sit. Turpis mauris mauris vestibulum egestas sit cillum, etiam at in elit turpis,
+                            volutpat sed nulla, vel amet sit, vitae nam sed pede.
+                        </p>
+                     </div>
+                    <div class="col-lg-6">
+                        <h2>Our Vision</h2>
+                        <p>
+                            Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
+                            orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede.
+                            Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,
+                            curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.
+                        </p>
+                    </div>
+                </div>
         </div>
     </section>
 
-    <section id="guidesAndGurus" class="row">
-        <div class="col-lg-12">
-            <h1 class="headers">Guides & Gurus</h1>
-        </div>
-    </section>
+    <!--<section id="guidesAndGurus" class="row">-->
+        <!--<div class="col-lg-12">-->
+            <!--<h1 class="headers">Guides & Gurus</h1>-->
+        <!--</div>-->
+    <!--</section>-->
 
     <section id="ourUniverse" class="row">
         <div class="col-lg-12">
-            <h1 class="headers">Our Universe</h1>
+            <h1>Our Universe</h1>
+            <div class="centerText">
+                <p>
+                    Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
+                    orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede.
+                    Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,
+                    curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.
+                </p>
+                <p>Lorem ipsum dolor sit amet, eget consequat, vivamus lectus lectus vel in cras nonummy,
+                    ornare sit nibh per nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,
+                    nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur. Sodales nec. Felis sed nec ligula erat fringilla arcu,
+                    orci et dui phasellus, ut velit ut curabitur donec, wisi morbi diam consequat quis dis in. Bibendum eget quis ultricies at arcu fermentum,
+                    facilisis aliquam, aperiam vel, odio lorem sit arcu. Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,
+                    eget fusce venenatis dictum nec tristique, netus vitae pellentesque magna sodales eros erat, erat vitae lectus nunc aliquam, elit risus libero.
+                    Elementum mauris elit class, eget sit posuere congue sit. Turpis mauris mauris vestibulum egestas sit cillum, etiam at in elit turpis,
+                    volutpat sed nulla, vel amet sit, vitae nam sed pede.
+                    Lorem ipsum dolor sit amet, eget consequat, vivamus lectus lectus vel in cras nonummy,
+                    ornare sit nibh per nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,
+                    nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur. Sodales nec. Felis sed nec ligula erat fringilla arcu,
+                    orci et dui phasellus, ut velit ut curabitur donec, wisi morbi diam consequat quis dis in. Bibendum eget quis ultricies at arcu fermentum,
+                    facilisis aliquam, aperiam vel, odio lorem sit arcu. Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,
+                    eget fusce venenatis dictum nec tristique, netus vitae pellentesque magna sodales eros erat, erat vitae lectus nunc aliquam, elit risus libero.
+                    Elementum mauris elit class, eget sit posuere congue sit. Turpis mauris mauris vestibulum egestas sit cillum, etiam at in elit turpis,
+                    volutpat sed nulla, vel amet sit, vitae nam sed pede.
+                </p>
+            </div>
         </div>
     </section>
 
     <section id="app" class="row">
         <div class="col-lg-12">
-            <h1 class="headers">The App</h1>
+            <h1 class="headers">Introduction to the APP</h1>
 
             <img id="iphone" src="img/iphone-jetblack.png" class="img-rounded" alt="Cinque Terre" width="250" height="400">
             <img src="img/App-Store.png" class="img-rounded">
         </div>
     </section>
-<!--Sections end here-->
+
+    <section id="contactUs" class="row">
+        <div class="col-lg-12">
+            <h1>Contact Us</h1>
+            <div class="centerText">
+                <h3>contact@globeguides.com</h3>
+                <br>
+                <p>
+                    Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
+                    orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede.
+                    Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,
+                    curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="termsAndConditions" class="row">
+        <div class="col-lg-12">
+            <h1>Terms & conditions</h1>
+            <div class="centerText">
+                <p>
+                    Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
+                    orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede.
+                    Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,
+                    curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.
+                </p>
+            </div>
+        </div>
+    </section>
 </div>
+<!--Sections end here-->
 
 <!-- Floating social links-->
 <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:30px; right:0px;">
@@ -137,8 +213,8 @@
 <!--End of social links-->
 
 <!--Footer-->
+<!--Vi mangler at linke disse to til de rette sektioner-->
 <div class="panel_footer">Contact - Terms & Conditions</div>
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -1,12 +1,6 @@
 section{
-    /*padding-top: 70px;*/
-    /*padding-left: 20px;*/
-    /*margin-top: 70px;*/
     height: 100vh;
-}
-
-#frontSection{
-    margin-top: 70px;
+    padding-top: 50px;
 }
 
 .panel_footer{
@@ -16,25 +10,33 @@ section{
     width: 100%;
     text-align: center;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #036b34;
 }
 
 #nav{
     border:0;
     border-radius: 0;
     padding:0;
-    margin:0;
+    margin: 0;
     height: inherit;
+    background-color: #036b34;
 }
 
 #title{
     text-align: center;
-    /*font-size: 3em;*/
     font-family: 'Cinzel', serif;
 }
 
-#cityPreview, #guidesAndGurus, #app, #travelGuides{
+#cityPreview, #ourUniverse, #contactUs, #travelGuides{
     background-color: #dfdfdf;
+}
+
+#app{
+    text-align: center;
+}
+
+/*container til index-html, container2 til guides.html*/
+#container, #container2{
     text-align: center;
 }
 
@@ -42,12 +44,11 @@ section{
     /*background-color: antiquewhite;*/
 /*}*/
 
-.headers{
+.centerText{
     text-align: center;
-    padding: 3%;
 }
 
-#frontpagePic{
+#frontPagePic{
     max-width: 100%;
     max-height: 100%;
 }
@@ -61,5 +62,12 @@ section{
     padding: 0 !important;
 }
 
+img.globeguru{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
 
-
+#globeGurus h3, #globeGurus h4{
+    text-align: center;
+}
