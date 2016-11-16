@@ -5,15 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <title>Globe Guides</title>
 </head>
 
 <body>
-
-
-
 
 <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -21,12 +17,12 @@
             <button type="button" class="collapsed navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-9" aria-expanded="false"><span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            <a href="#globeGurus" class="navbar-brand">Globe Guides</a></div>
+            <a href="#frontSection" class="navbar-brand">Globe Guides</a></div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
             <ul class="nav navbar-nav">
-                <li role="presentation" ><a href="#home">Home</a></li>
+                <li role="presentation"><a href="#frontSection">Home</a></li>
                 <li role="presentation"><a href="#ourVision">Our Vision</a></li>
-                <li role="presentation"><a href="#guidesAndGurus">Guides & Gurus</a></li>
+                <li role="presentation"><a href="guides.html">Guides & Gurus</a></li>
                 <li role="presentation"><a href="#ourUniverse">Our Universe</a></li>
                 <li role="presentation"><a href="#app">App</a></li>
             </ul>
@@ -34,126 +30,102 @@
     </div>
 </nav>
 
-<section id="globeGurus"  class="my_section">
+<div class="container-fluid">
+    <section id="frontSection" class="row">
+        <div class="col-lg-12 noPadding" >
+            <h1 id="title">Globe Guides</h1>
 
-    <!-- Billed til Home -->
-    <h1 id="start_overskrift">Globe Guides</h1>
-
-    <img src="img/4k-image-santiago.jpg" class="img-rounded" alt="billed i starten" width="1480" height="550">
-
-    <br><br><br><br>
-
-    Start sektionen slutter her.
-    <br><br><br>
-    <br><br><br>
-
-
-</section>
-
-<section id="home" class="my_section">
-
-    <h1>Home</h1>
-
-    <!-- carousel starts here -->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="img/smukt-billed-1.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>This is so beautiful, picture 1</h3>
-                </div>
+            <!-- Billede til forside-->
+            <div id="fillScreen">
+                <img src="img/4k-image-santiago.jpg" id="frontpagePic" alt="City Skyline" width="1480" height="550">
             </div>
-            <div class="item">
-                <img src="img/smukt-billed-2.jpg " alt="...">
-                <div class="carousel-caption">
-                    <h3>This is so beautiful, picture 2</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="img/smukt-billed-2.jpg" alt="...">
-                <div class="carousel-caption">
-                    <h3>This is so beautiful, picture 3</h3>
-                </div>
-            </div>
-            <div class="item">
-                <img src="img/smukt-billed-2.jpg" alt="...">
-                <div class="carousel-caption">
-                    <h3>This is so beautiful, picture 3</h3>
-                </div>
-            </div>
-
         </div>
+    </section>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div> <!-- Carousel -->
+    <section id="cityPreview" class="row">
+        <div class="col-lg-12">
+            <h1 class="headers">City Preview</h1>
 
-    <br><br>
-    home sektionen slutter her.
-    <br><br><br>
+            <!-- carousel starts here -->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                </ol>
 
-</section>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/smukt-billed-1.png" alt="...">
+                        <div class="carousel-caption">
+                            <h3>This is so beautiful, picture 1</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/smukt-billed-2.jpg " alt="...">
+                        <div class="carousel-caption">
+                            <h3>This is so beautiful, picture 2</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/smukt-billed-2.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <h3>This is so beautiful, picture 3</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/smukt-billed-2.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <h3>This is so beautiful, picture 3</h3>
+                        </div>
+                    </div>
 
-<section id="ourVision" class="my_section">
-    <h1>Our Vision</h1>
-    here is the profiel shit
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    Our Vision sektionen slutter her.
-    <br><br><br>
+                </div>
 
-</section>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div> <!-- Carousel end -->
+        </div>
+    </section>
 
-<section id="guidesAndGurus" class="my_section">
-    <h1>Guides & Gurus</h1>
-    here is the MSG shit
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    Guides & Gurus sektionen slutter her.
-    <br><br><br>
+    <section id="ourVision" class="row">
+        <div class="col-lg-12">
+            <h1 class="headers">Our Vision</h1>
+        </div>
+    </section>
 
-</section>
+    <section id="guidesAndGurus" class="row">
+        <div class="col-lg-12">
+            <h1 class="headers">Guides & Gurus</h1>
+        </div>
+    </section>
 
-<section id="ourUniverse" class="my_section">
-    <h1>Our Universe</h1>
-    here is the MSG shit
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    Our Universe sektionen slutter her.
-    <br><br><br>
+    <section id="ourUniverse" class="row">
+        <div class="col-lg-12">
+            <h1 class="headers">Our Universe</h1>
+        </div>
+    </section>
 
-</section>
+    <section id="app" class="row">
+        <div class="col-lg-12">
+            <h1 class="headers">The App</h1>
 
-<section id="app" class="my_section">
-    <h1>The App</h1>
+            <img id="iphone" src="img/iphone-jetblack.png" class="img-rounded" alt="Cinque Terre" width="250" height="400">
+            <img src="img/App-Store.png" class="img-rounded">
+        </div>
+    </section>
+<!--Sections end here-->
+</div>
 
-    <br><br><br>
-    <img id="iphone" src="img/iphone-jetblack.png" class="img-rounded" alt="Cinque Terre" width="250" height="400">
-
-    <img src="img/App-Store.png" class="img-rounded">
-    <br><br><br>
-    here is the MSG shit
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    App sektionen slutter her.
-
-    <br><br><br>
-
-
-</section>
-
-<!-- FLOATING SOCIAL LINKS START-->
+<!-- Floating social links-->
 <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:30px; right:0px;">
     <a class="a2a_button_facebook"></a>
     <a class="a2a_button_twitter"></a>
@@ -162,10 +134,9 @@
 </div>
 
 <script async src="https://static.addtoany.com/menu/page.js"></script>
+<!--End of social links-->
 
-<!-- FLOATING SOCIAL LINKS SLUT-->
-
-
+<!--Footer-->
 <div class="panel_footer">Contact - Terms & Conditions</div>
 
 
