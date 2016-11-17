@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <title>Globe Guides</title>
 </head>
 
@@ -35,7 +35,7 @@
 
             <!-- Billede til forside-->
             <div id="fillScreen">
-                <img src="img/4k-image-santiago.jpg" id="frontpagePic" alt="City Skyline" width="1480" height="550">
+                <img src="img/4k-image-santiago.jpg" id="frontPagePic" alt="City Skyline">
             </div>
         </div>
     </section>
@@ -45,7 +45,7 @@
             <h1>City Preview</h1>
 
             <!-- carousel starts here -->
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div id="carousel" class="carouselSlide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -95,32 +95,31 @@
     </section>
 
     <section id="ourVision" class="row">
-        <div class="col-lg-12">
             <h1>Our Vision</h1>
-                <div class="centerText">
-                    <div class="col-lg-6">
-                        <h2>Our Story</h2>
-                        <p>Lorem ipsum dolor sit amet, eget consequat, vivamus lectus lectus vel in cras nonummy,
-                            ornare sit nibh per nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,
-                            nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur. Sodales nec. Felis sed nec ligula erat fringilla arcu,
-                            orci et dui phasellus, ut velit ut curabitur donec, wisi morbi diam consequat quis dis in. Bibendum eget quis ultricies at arcu fermentum,
-                            facilisis aliquam, aperiam vel, odio lorem sit arcu. Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,
-                            eget fusce venenatis dictum nec tristique, netus vitae pellentesque magna sodales eros erat, erat vitae lectus nunc aliquam, elit risus libero.
-                            Elementum mauris elit class, eget sit posuere congue sit. Turpis mauris mauris vestibulum egestas sit cillum, etiam at in elit turpis,
-                            volutpat sed nulla, vel amet sit, vitae nam sed pede.
-                        </p>
-                     </div>
-                    <div class="col-lg-6">
-                        <h2>Our Vision</h2>
-                        <p>
-                            Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
-                            orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede.
-                            Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,
-                            curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.
-                        </p>
-                    </div>
+
+            <div class="centerText">
+                <div class="col-lg-6">
+                    <h2>Our Story</h2>
+                    <p>Lorem ipsum dolor sit amet, eget consequat, vivamus lectus lectus vel in cras nonummy,
+                        ornare sit nibh per nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,
+                        nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur. Sodales nec. Felis sed nec ligula erat fringilla arcu,
+                        orci et dui phasellus, ut velit ut curabitur donec, wisi morbi diam consequat quis dis in. Bibendum eget quis ultricies at arcu fermentum,
+                        facilisis aliquam, aperiam vel, odio lorem sit arcu. Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,
+                        eget fusce venenatis dictum nec tristique, netus vitae pellentesque magna sodales eros erat, erat vitae lectus nunc aliquam, elit risus libero.
+                        Elementum mauris elit class, eget sit posuere congue sit. Turpis mauris mauris vestibulum egestas sit cillum, etiam at in elit turpis,
+                        volutpat sed nulla, vel amet sit, vitae nam sed pede.
+                    </p>
+                 </div>
+                <div class="col-lg-6">
+                    <h2>Our Vision</h2>
+                    <p>
+                        Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
+                        orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede.
+                        Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,
+                        curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.
+                    </p>
                 </div>
-        </div>
+            </div>
     </section>
 
     <!--<section id="guidesAndGurus" class="row">-->
@@ -161,13 +160,19 @@
     </section>
 
     <section id="app" class="row">
-        <div class="col-lg-12">
-            <h1 class="headers">Introduction to the APP</h1>
+        <h1 class="headers">Introduction to the APP</h1>
 
+        <div class="col-lg-6">
             <img id="iphone" src="img/iphone-jetblack.png" class="img-rounded" alt="Cinque Terre" width="250" height="400">
-            <img src="img/App-Store.png" class="img-rounded">
+            <a href="www.apple.com">
+                <img src="img/App-Store.png" class="img-rounded">
+            </a>
+        </div>
+        <div class="col-lg-6">
             <img id="samsung" src="img/S7.png" alt="Cinque Terre" width="280" height="400">
-            <img id="google-play" src="img/google-play-badge.png" alt="Cinque Terre" width="150" height="60">
+            <a href="google.com">
+                <img id="www.google-play" src="img/google-play-badge.png" alt="Cinque Terre" width="150" height="60">
+            </a>
         </div>
     </section>
 
@@ -204,19 +209,32 @@
 <!--Sections end here-->
 
 <!-- Floating social links-->
-<div id="test" class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:30px; right:0px;">
-    <a class="a2a_button_facebook"></a>
-    <a class="a2a_button_twitter"></a>
-    <a class="a2a_button_instagram"></a>
-    <a class="a2a_button_email"></a>
-</div>
+<!--<div id="test" class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:30px; right:0px;">-->
+    <!--<a class="a2a_button_facebook"></a>-->
+    <!--<a class="a2a_button_twitter"></a>-->
+    <!--<a class="a2a_button_instagram"></a>-->
+    <!--<a class="a2a_button_email"></a>-->
+<!--</div>-->
 
 <script async src="https://static.addtoany.com/menu/page.js"></script>
 <!--End of social links-->
 
 <!--Footer-->
-<!--Vi mangler at linke disse to til de rette sektioner-->
-<div class="panel_footer">Contact - Terms & Conditions</div>
+<!--<div class="container-fluid">-->
+<div class="panel-footer row" id="footer">
+    <div class="col-lg-6">
+        <a href="#contactUs">Contact</a> <span> - </span> <a href="#termsAndConditions">Terms & Conditions</a>
+    </div>
+    <div class="col-lg-6">
+        <div id="appLinks" class="a2a_kit a2a_kit_size_32 a2a_default_style">
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_instagram"></a>
+            <a class="a2a_button_email"></a>
+        </div>
+    </div>
+</div>
+<!--</div>-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -1,5 +1,20 @@
+#title{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+}
+
+#nav{
+    border:0;
+    border-radius: 0;
+    padding:0;
+    margin: 0;
+    height: inherit;
+    /*background-color: #036b34;*/
+}
+
 section{
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 50px;
 }
 
@@ -10,29 +25,20 @@ section{
     width: 100%;
     text-align: center;
     color: #ffffff;
-    background-color: #036b34;
+    /*background-color: #036b34;*/
+    background-color: #000000;
 }
 
-#nav{
-    border:0;
-    border-radius: 0;
-    padding:0;
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
     margin: 0;
-    height: inherit;
-    background-color: #036b34;
-}
-
-#title{
-    text-align: center;
-    font-family: 'Cinzel', serif;
 }
 
 #cityPreview, #ourUniverse, #contactUs, #travelGuides{
     background-color: #dfdfdf;
-}
-
-#app{
-    text-align: center;
 }
 
 /*container til index-html, container2 til guides.html*/
@@ -40,21 +46,13 @@ section{
     text-align: center;
 }
 
-/*#frontSection, #ourVision, #ourUniverse, #guides, #globeGurus{*/
-    /*background-color: antiquewhite;*/
-/*}*/
-
-.centerText{
-    text-align: center;
-}
-
 #frontPagePic{
     max-width: 100%;
-    max-height: 100%;
+    min-height: 100vh;
+    object-fit: cover;
 }
 
 #fillScreen{
-    position: static;
     text-align: center;
 }
 
@@ -72,9 +70,10 @@ img.globeguru{
     text-align: center;
 }
 
-#test{
-    background-color: transparent;
+#tabPane{
+    display: table;
+    margin: auto;
 }
 
-/*#guidesAndGurusNavBar{*/
+/*#carousel{*/
 /*}*/
