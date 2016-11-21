@@ -16,6 +16,12 @@
 section{
     min-height: 100vh;
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#cityPreview, #ourVision, #ourUniverse, #app, #contactUs, #termsAndConditions{
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .panel-footer{
@@ -24,9 +30,6 @@ section{
     bottom: 0px;
     width: 100%;
     text-align: center;
-    /*color: #ffffff;*/
-    /*background-color: #036b34;*/
-    /*background-color: #ffffff;*/
 }
 
 #footer{
@@ -61,6 +64,16 @@ section{
     font-size: 1.3em;
 }
 
+#container h2, #container2 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    padding-bottom: 35px;
+}
+
+#container h3, #container2 h3{
+    font-family: 'Raleway', sans-serif;
+}
+
 #frontPagePic{
     max-width: 100%;
     min-height: 100vh;
@@ -70,18 +83,16 @@ section{
 
 #imageText{
     position: absolute;
-    top: 70px;
+    top: 40px;
     left: 0;
     width: 100%;
     font-size: 10rem;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #imageText span{
     color: white;
     font-family: 'Indie Flower', cursive;
-    /*background: rgb(0,0,0);*/
-    /*background: rgba(0,0,0,0.7);*/
-    /*padding: 10px;*/
 }
 
 .noPadding{
@@ -94,6 +105,10 @@ img.globeguru{
     object-fit: cover;
 }
 
+.cImg{
+    width: 100%;
+}
+
 #globeGurus h3, #globeGurus h4{
     text-align: center;
 }
@@ -101,4 +116,9 @@ img.globeguru{
 #tabPane{
     display: table;
     margin: auto;
+}
+
+.navbar-brand{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
 }
