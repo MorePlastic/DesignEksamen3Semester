@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <title>Globe Guides</title>
 </head>
 
@@ -32,11 +33,13 @@
 <div class="container-fluid" id="container">
     <section id="frontSection" class="row">
         <div class="col-lg-12 noPadding" >
-            <h1 id="title">Globe Guides</h1>
+
+            <!--<h1 id="title">Globe Guides</h1>-->
 
             <!-- Billede til forside-->
-            <div id="fillScreen">
+            <div id="firstImage">
                 <img src="img/4k-image-santiago.jpg" id="frontPagePic" alt="City Skyline">
+                <h1 id="imageText"><span>Globe Guides</span></h1>
             </div>
         </div>
     </section>
@@ -212,23 +215,26 @@
 
 <!--Footer-->
 <!--<div class="container-fluid">-->
+
 <div class="panel-footer row" id="footer">
     <div class="col-lg-6">
-        <a href="#contactUs">Contact</a> <span> - </span> <a href="#termsAndConditions">Terms & Conditions</a>
-    </div>
+        <div id="footerText">
+            <a href="#contactUs">Contact</a> <span> - </span> <a href="#termsAndConditions">Terms & Conditions</a>
+        </div>
+        </div>
     <div class="col-lg-6">
-        <div id="appLinks" class="a2a_kit a2a_kit_size_32 a2a_default_style">
-            <a class="a2a_button_facebook"></a>
-            <a class="a2a_button_twitter"></a>
-            <a class="a2a_button_instagram"></a>
-            <a class="a2a_button_email"></a>
+        <div id="appLinks" class="apps">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-envelope-square" aria-hidden="true"></i>
         </div>
     </div>
 </div>
 <!--</div>-->
 
 <!--Script til icons i footeren-->
-<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!--<script async src="https://static.addtoany.com/menu/page.js"></script>-->
 <!--Slut footer-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
