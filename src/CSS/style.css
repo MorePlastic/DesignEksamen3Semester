@@ -1,6 +1,6 @@
 #title{
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Indie Flower', cursive;
     font-size: 6rem;
 }
 
@@ -18,15 +18,15 @@ section{
     padding-top: 50px;
 }
 
-.panel_footer{
+.panel-footer{
     position: fixed;
     left: 0px;
     bottom: 0px;
     width: 100%;
     text-align: center;
-    color: #ffffff;
+    /*color: #ffffff;*/
     /*background-color: #036b34;*/
-    background-color: #000000;
+    /*background-color: #ffffff;*/
 }
 
 #footer{
@@ -35,6 +35,16 @@ section{
     width: 100%;
     text-align: right;
     margin: 0;
+}
+
+#footerText{
+    margin-top: 13px;
+}
+
+.apps{
+    font-size: 2.5em;
+    text-align: left;
+    color: #036b34;
 }
 
 #cityPreview, #ourUniverse, #contactUs, #travelGuides{
@@ -46,14 +56,32 @@ section{
     text-align: center;
 }
 
+#container p, #container2 p{
+    font-family: Calibri, sans-serif;
+    font-size: 1.3em;
+}
+
 #frontPagePic{
     max-width: 100%;
     min-height: 100vh;
     object-fit: cover;
+    text-align: center;
 }
 
-#fillScreen{
-    text-align: center;
+#imageText{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    font-size: 10rem;
+}
+
+#imageText span{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    /*background: rgb(0,0,0);*/
+    /*background: rgba(0,0,0,0.7);*/
+    /*padding: 10px;*/
 }
 
 .noPadding{
