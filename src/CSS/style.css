@@ -41,7 +41,6 @@ section{
     margin: 0;
 }
 
-
 #footerText{
     margin-top: 13px;
 }
@@ -126,9 +125,10 @@ img.globeguru{
 }
 
 #carousel-billed-1, #carousel-billed-2, #carousel-billed-3, #carousel-billed-4 {
-
     width: 150%;
-    height: 500px;
-
+    height: 50em;
 }
 
+#app h3{
+    font-weight: bold;
+}
