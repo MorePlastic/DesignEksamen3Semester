@@ -51,7 +51,7 @@ section{
     color: #036b34;
 }
 
-#cityPreview, #ourUniverse, #contactUs, #travelGuides{
+#cityPreview, #ourUniverse, #contactUs, #travelGuides, #travelTalesComment{
     background-color: #dfdfdf;
 }
 
@@ -134,5 +134,11 @@ img.globeguru{
 }
 
 #map{
+
+}
+
+#tales-by1, #tales-by2, #tales-by3, #tales-by4, #tales-by5, #tales-by6{
+    height: 100px;
+    width: 100px;
 
 }
