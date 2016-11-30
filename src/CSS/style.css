@@ -109,7 +109,9 @@ section{
 
 #imageText span{
     color: #036b34;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Times New Roman', cursive;
+    text-shadow: 50px 10px 30px grey;
+
 }
 
 .noPadding{
@@ -137,8 +139,7 @@ img.globeguru{
 }
 
 #carousel-billed-1, #carousel-billed-2, #carousel-billed-3, #carousel-billed-4 {
-    width: 150%;
-    height: 50em;
+    
 }
 
 /*Her kalder jeg på alle knapperne, på én gang*/
@@ -147,4 +148,10 @@ img.globeguru{
     width: 100px;
     margin: 2%;
     background-color: #de499b;
+}
+
+#europe-map{
+    height: 50%;
+    width: 50%;
+    margin: 2%;
 }

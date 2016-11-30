@@ -27,8 +27,7 @@ $(document).ready(function () {
 
 //Vienna
 function getTalesOutputTown1() {
-    $('#talesTitle').text("Vienna");
-    $('#descriptionVienna').text("Her er Vienna");
+    $('#talesOutputBox').text("Her skal der stå text om Vienna");
 }
 //London
 function getTalesOutputTown2() {
@@ -43,18 +42,18 @@ function getTalesOutputTown2() {
 }
 //Dublin
 function getTalesOutputTown3() {
-    $('#talesOutputBox').text("Her skal der stå text om by 3");
+    $('#talesOutputBox').text("Her skal der stå text om Dublin");
 }
 //Copenhagen
 function getTalesOutputTown4() {
-    $('#talesOutputBox').text("Her skal der stå text om by 4");
+    $('#talesOutputBox').text("Her skal der stå text om Copenhagen");
 }
 //Stenløse
 function getTalesOutputTown5() {
-    $('#talesOutputBox').text("Her skal der stå text om by 5");
+    $('#talesOutputBox').text("Her skal der stå text om Rome");
 }
 //Tehran
 function getTalesOutputTown6() {
-    $('#talesOutputBox').text("Her skal der stå text om by 6, jeg skriver bare en masse her for at se hvordan det her kommer til at se ud");
+    $('#talesOutputBox').text("Her skal der stå om Athens");
 }
 
