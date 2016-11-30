@@ -17,56 +17,41 @@
         <div class="navbar-header">
             <button type="button" class="collapsed navbar-toggle" data-toggle="collapse"
                     data-target="#navbar-collapse" aria-expanded="false"><span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span> <span class="icon-bar"></span><span class="icon-bar"></span></button>
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             <a href="index.html#frontSection" class="navbar-brand">Globe Guides</a></div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
-                <!--<li role="presentation"><a href="index.html#frontSection">Home</a></li>-->
                 <li role="presentation"><a href="index.html#ourVision">Our Vision</a></li>
-                <li role="presentation"><a href="guides.html">Guides & Gurus</a></li>
+                <li role="presentation"><a href="index.html#app">App</a></li>
                 <li role="presentation"><a href="index.html#ourUniverse">Our Universe</a></li>
                 <li role="presentation"><a href="travelTales.html">Travel Tales</a></li>
-                <li role="presentation"><a href="index.html#app">App</a></li>
+                <li role="presentation"><a href="globeGurus.html">#globegurus</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <!--Sections start-->
-<div class="container-fluid" id="container2">
-    <section id="guides" class="row">
-        <div class="col-lg-12">
-            <h2>Guides & Gurus</h2>
-            <p>Vienna</p>
-            <p>St. Petersburg</p>
-            <p>Canberra</p>
-            <p>Stenløse</p>
-            <p>Istanbul</p>
-            <p>Havana</p>
-        </div>
-    </section>
-
-    <section id="travelGuides" class="row">
-        <div class="col-lg-12">
-            <h2>Travel Guides</h2>
-
-            <ul class="nav nav-tabs" id="tabPane">
-                <li><a href="#">24 Hours</a></li>
-                <li><a href="#">48 Hours</a></li>
-                <li><a href="#">72 Hours</a></li>
-                <li><a href="#">4 Days</a></li>
-                <li><a href="#">5 Days</a></li>
-                <li><a href="#">6 Days</a></li>
-                <li><a href="#">7 Days</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="globeGurus" class="row">
+<div class="container-fluid" id="container">
+    <section id="globegurus" class="row">
         <div class="col-lg-12">
             <h2>#globegurus</h2>
+
+            <button id="gurus-by1" type="button" class="btn btn-info" onclick="getTalesOutputTown1()">Vienna</button>
+            <button id="gurus-by2" type="button" class="btn btn-info" onclick="getTalesOutputTown2()">London</button>
+            <button id="gurus-by3" type="button" class="btn btn-info" onclick="getTalesOutputTown3()">Dublin</button>
+            <button id="gurus-by4" type="button" class="btn btn-info" onclick="getTalesOutputTown4()">Copenhagen</button>
+            <button id="gurus-by5" type="button" class="btn btn-info" onclick="getTalesOutputTown5()">Stenløse</button>
+            <button id="gurus-by6" type="button" class="btn btn-info" onclick="getTalesOutputTown6()">Tehran</button>
+        </div>
+    </section>
+
+    <section id="cityGlobeGurus" class="row">
+        <div class="col-lg-12">
+            <h2>#globegurus talk about the City</h2>
+            <h3>Vienna</h3>
             <div class="col-lg-3">
-                <h3>#GlobeGuru1</h3>
+                <h3>#globeguru1</h3>
                 <img src="http://a3.files.biography.com/image/upload/c_fit,cs_srgb,dpr_1.0,q_80,w_620/MTQxNDkyNTA3MzY3MTg4MjE5.jpg" class="globeguru" alt="snowden">
                 <h4>Edward Snowden</h4>
                 <p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
@@ -75,7 +60,7 @@
                 curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>
             </div>
             <div class="col-lg-3">
-                <h3>#GlobeGuru2</h3>
+                <h3>#globeguru2</h3>
                 <img src="http://www.seoghoer.dk/sites/seoghoer.dk/files/media/94fad9e00f7442ef9f3d9c9efb010e2c.jpg" class="globeguru" alt="fieLaursen">
                 <h4>Fie Laursen</h4>
                 <p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
@@ -84,7 +69,7 @@
                 curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>
             </div>
             <div class="col-lg-3">
-                <h3>#GlobeGuru3</h3>
+                <h3>#globeguru3</h3>
                 <img src="http://static2.businessinsider.com/image/57431cad52bcd026008c4814-480/donald-trump.jpg" class="globeguru" alt="trump">
                 <h4>Donald Trump</h4>
                 <p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
@@ -94,7 +79,7 @@
                 </p>
             </div>
             <div class="col-lg-3">
-                <h3 class="">#GlobeGuru4</h3>
+                <h3 class="">#globeguru4</h3>
                 <img src="https://s-media-cache-ak0.pinimg.com/originals/44/7c/a9/447ca9f27b1cf568f57290d68f50cf96.jpg" class="globeguru" alt="elonMusk">
                 <h4>Elon Musk</h4>
                 <p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
@@ -112,7 +97,7 @@
     <div class="panel-footer row" id="footer">
         <div class="col-lg-6">
             <div id="footerText">
-                <a href="index.html#contactUs">Contact</a> <span> - </span> <a href="index.html#termsAndConditions">Terms & Conditions</a>
+                <a href="index.html#contactUs">Contact Us</a><span> - </span> <a href="index.html#termsAndConditions">Terms & Conditions</a>
             </div>
         </div>
         <div class="col-lg-6">

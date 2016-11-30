@@ -1,7 +1,7 @@
 #title{
     text-align: center;
     font-family: 'Indie Flower', cursive;
-    font-size: 6rem;
+    font-size: 7rem;
 }
 
 #nav{
@@ -11,6 +11,17 @@
     margin: 0;
     height: inherit;
     background-color: #ffffff;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.navbar-brand{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: #036b34;
+}
+
+.nav.navbar-nav li a{
+    color: #de499b;
 }
 
 section{
@@ -19,9 +30,9 @@ section{
     padding-bottom: 50px;
 }
 
-#cityPreview, #ourVision, #ourUniverse, #app, #contactUs, #termsAndConditions{
-    padding-right: 5%;
-    padding-left: 5%;
+#cityPreview, #ourVision, #ourUniverse, #app, #contactUs, #termsAndConditions, #travelTales #cityPreview, #globeGurus, #cityGlobeGurus, #cityDescription{
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 .panel-footer{
@@ -45,34 +56,39 @@ section{
     margin-top: 13px;
 }
 
+#footerText a:link{
+    color: black;
+}
+
 .apps{
     font-size: 2.0em;
     text-align: left;
     color: #036b34;
 }
 
-#cityPreview, #ourUniverse, #contactUs, #travelGuides, #travelTalesComment{
+#cityPreview, #app, #contactUs, #globeGurus, #cityDescription, #cityGlobeGurus{
     background-color: #dfdfdf;
 }
 
-/*container til index-html, container2 til guides.html*/
-#container, #container2{
+#container{
     text-align: center;
 }
 
-#container p, #container2 p{
+#container p{
     font-family: Calibri, sans-serif;
     font-size: 1.3em;
 }
 
-#container h2, #container2 h2{
+#container h2{
     font-family: 'Raleway', sans-serif;
     font-size: 4rem;
     padding-bottom: 35px;
+    color: #036b34;
 }
 
-#container h3, #container2 h3{
+#container h3{
     font-family: 'Raleway', sans-serif;
+    color: #de499b;
 }
 
 #frontPagePic{
@@ -112,6 +128,7 @@ img.globeguru{
 
 #globeGurus h3, #globeGurus h4{
     text-align: center;
+    color: #de499b;
 }
 
 #tabPane{
@@ -119,26 +136,15 @@ img.globeguru{
     margin: auto;
 }
 
-.navbar-brand{
-    font-family: 'Indie Flower', cursive;
-    font-size: 25px;
-}
-
 #carousel-billed-1, #carousel-billed-2, #carousel-billed-3, #carousel-billed-4 {
     width: 150%;
     height: 50em;
 }
 
-#app h3{
-    font-weight: bold;
-}
-
-#map{
-
-}
-
-#tales-by1, #tales-by2, #tales-by3, #tales-by4, #tales-by5, #tales-by6{
+/*Her kalder jeg på alle knapperne, på én gang*/
+.btn.btn-info{
     height: 100px;
     width: 100px;
-
+    margin: 2%;
+    background-color: #de499b;
 }
