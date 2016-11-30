@@ -23,7 +23,6 @@ $(document).ready(function () {
 // }
 
 //HERFRA OG NED ER OUTPUTTET NÅR MAN TRYKKER PÅ KNAPPERNE I TRAVEL TALES
-//Vi kan også skrive det her i HTML filen under hver knap i stedet
 
 //Vienna
 function getTalesOutputTown1() {
@@ -105,7 +104,7 @@ function getTalesOutputTown6() {
 // $('#talesOutputBox').text("Her skal der stå om Athens");
 
 
-//Gurus
+//GLOBE GURUS
 //Vienna
 function getGurusOutPutTown1(){
     $('#gurusTitle').text("Vienna");
