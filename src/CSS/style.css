@@ -1,7 +1,25 @@
-#title{
+#frontPagePic{
+    max-width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
     text-align: center;
+}
+
+/*Title*/
+#imageText span{
+    color: #036b34;
     font-family: 'Indie Flower', cursive;
-    font-size: 7rem;
+    /*font-family: 'Times New Roman', cursive;*/
+    /*text-shadow: 50px 10px 30px grey;*/
+}
+
+#imageText{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    font-size: 10rem;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #nav{
@@ -63,6 +81,10 @@ section{
 .apps{
     font-size: 2.0em;
     text-align: left;
+    /*color: #036b34;*/
+}
+
+#appLinks a:link{
     color: #036b34;
 }
 
@@ -91,29 +113,6 @@ section{
     color: #de499b;
 }
 
-#frontPagePic{
-    max-width: 100%;
-    min-height: 100vh;
-    object-fit: cover;
-    text-align: center;
-}
-
-#imageText{
-    position: absolute;
-    top: 40px;
-    left: 0;
-    width: 100%;
-    font-size: 10rem;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-#imageText span{
-    color: #036b34;
-    font-family: 'Times New Roman', cursive;
-    text-shadow: 50px 10px 30px grey;
-
-}
-
 .noPadding{
     padding: 0 !important;
 }
@@ -138,22 +137,16 @@ img.globeguru{
     margin: auto;
 }
 
-#carousel-billed-1, #carousel-billed-2, #carousel-billed-3, #carousel-billed-4 {
-
-
-}
-
-
-/*Her kalder jeg på alle knapperne, på én gang*/
-.btn.btn-info{
-    height: 100px;
-    width: 100px;
-    margin: 2%;
+.btn.btn-default{
     background-color: #de499b;
+    color: #ffffff;
+    margin: 0.5%;
 }
 
-#europe-map{
-    height: 50%;
-    width: 50%;
-    margin: 2%;
+.europe-map{
+    /*object-fit: cover;*/
+    /*margin: auto;*/
+    /*height: 40%;*/
+    /*width: 100%;*/
+    /*text-align: center;*/
 }
