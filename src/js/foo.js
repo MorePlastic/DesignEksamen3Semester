@@ -56,6 +56,6 @@ function getTalesOutputTown5() {
 }
 
 function getTalesOutputTown6() {
-    $('#talesOutputBox').text("Her skal der stå text om by 6");
+    $('#talesOutputBox').text("Her skal der stå text om by 6, jeg skriver bare en masse her for at se hvordan det her kommer til at se ud");
 }
 
