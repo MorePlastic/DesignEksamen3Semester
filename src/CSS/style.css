@@ -152,9 +152,16 @@ img.globeguru{
 }
 
 .carousel{
-
     width: 60em;
     height: 35em;
+}
 
+#emailForm{
+    background-color: white;
+    /*border: solid;*/
+    padding: 2.5%;
+}
 
+#submitButton{
+    margin: 2.5%;
 }

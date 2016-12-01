@@ -199,12 +199,38 @@
             <h2>Contact Us</h2>
             <div class="centerText">
                 <h3>contact@globeguides.com</h3>
-                <p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,
-                    orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede.
-                    Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,
-                    curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>
-
-                <!--http://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail-->
+                <p>If you have any questions, you can write them here</p>
+                <div class="col-lg-6 col-lg-offset-3" id="emailForm">
+                    <div>
+                        <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent.</strong></div>
+                        <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs.</strong></div>
+                    </div>
+                    <div id="emailInputs">
+                        <form action="mailto:heri270@hotmail.com" method="post" enctype="text/plain">
+                            <div class="formGroup">
+                                <label>Name:</label>
+                                <div class="inputGroup">
+                                    <input type="text" name="name" placeholder="Enter your name" required>
+                                </div>
+                            </div>
+                            <div class="formGroup">
+                                <label>Email:</label>
+                                <div class="inputGroup">
+                                    <input type="text" name="mail" placeholder="Enter your email" required>
+                                </div>
+                            </div>
+                            <div class="forGroup">
+                                <label>Message:</label>
+                                <div class="inputGroup">
+                                    <textarea class="formGroup" type="textarea" id="message" placeholder="Write your message here" rows="3" required>                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="formGoup">
+                                <input type="submit" value="Send" class="btn btn-info" id="submitButton" >
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

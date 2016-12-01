@@ -121,6 +121,15 @@ function getGurusOutPutTown2(){
             "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
             "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
             "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "<div class='col-lg-3'>"+
+        "<h3>#globeguru2</h3>"+
+        "<img src='http://www.seoghoer.dk/sites/seoghoer.dk/files/media/94fad9e00f7442ef9f3d9c9efb010e2c.jpg' class='globeguru' alt='fieLaursen'>"+
+        "<h4>Fie Laursen</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
         "</div>");
 }
 //Dublin
