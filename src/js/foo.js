@@ -27,14 +27,14 @@ $(document).ready(function () {
 //Vienna
 function getTalesOutputTown1() {
     $('#talesTitle').text("Vienna");
-    $('#talesData').text("Lorem ipsum dolor sit amet, eget consequat, vivamus lectus lectus vel in cras nonummy,"+
+    $('#talesData').html("<p> Lorem ipsum dolor sit amet, eget consequat, vivamus lectus lectus vel in cras nonummy,"+
         "ornare sit nibh per nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,"+
         "nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur. Sodales nec. Felis sed nec ligula erat fringilla arcu,"+
         "orci et dui phasellus, ut velit ut curabitur donec, wisi morbi diam consequat quis dis in. Bibendum eget quis ultricies at arcu fermentum,"+
         "facilisis aliquam, aperiam vel, odio lorem sit arcu. Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,"+
         "eget fusce venenatis dictum nec tristique, netus vitae pellentesque magna sodales eros erat, erat vitae lectus nunc aliquam, elit risus libero."+
         "Elementum mauris elit class, eget sit posuere congue sit. Turpis mauris mauris vestibulum egestas sit cillum, etiam at in elit turpis,"+
-        "volutpat sed nulla, vel amet sit, vitae nam sed pede.");
+        "volutpat sed nulla, vel amet sit, vitae nam sed pede. </p>");
 }
 //London
 function getTalesOutputTown2() {
@@ -70,45 +70,61 @@ function getTalesOutputTown2() {
 //Dublin
 function getTalesOutputTown3() {
     $('#talesTitle').text("Dublin");
-    $('#talesData').text("Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,"+
+    $('#talesData').html("<p>Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,"+
         "eget fusce venenatis dictum nec tristique, netus vitae pellentesque magna sodales eros erat, erat vitae lectus nunc aliquam, elit risus libero."+
         "Elementum mauris elit class, eget sit posuere congue sit. Turpis mauris mauris vestibulum egestas sit cillum, etiam at in elit turpis,"+
-        "volutpat sed nulla, vel amet sit, vitae nam sed pede");
+        "volutpat sed nulla, vel amet sit, vitae nam sed pede</p>");
 }
 //Copenhagen
 function getTalesOutputTown4() {
     $('#talesTitle').text("Copenhagen");
-    $('#talesData').text("Wuhuhuhu HOMETOWN"+
+    $('#talesData').html("<p>Wuhuhuhu HOMETOWN"+
         "Lorem ipsum dolor sit amet, eget consequat, vivamus lectus lectus vel in cras nonummy,"+
         "ornare sit nibh per nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,"+
-        "nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur.");
+        "nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur.</p>");
 }
 //Rome
 function getTalesOutputTown5() {
     $('#talesTitle').text("Rome");
-    $('#talesData').text("Odio lorem sit arcu. Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,"+
+    $('#talesData').html("<p>Odio lorem sit arcu. Lectus mollis praesent et, nam non. Lobortis mauris in sit justo arcu,"+
         "eget fusce venenatis dictum nec tristique, netus vitae pellentesque magna sodales eros erat, erat vitae lectus nunc aliquam, elit risus libero."+
         "Elementum mauris elit class, eget sit posuere congue sit. Turpis mauris mauris vestibulum egestas sit cillum, etiam at in elit turpis,"+
-        "volutpat sed nulla, vel amet sit, vitae nam sed pede.");
+        "volutpat sed nulla, vel amet sit, vitae nam sed pede.</p>");
 }
 //Athens
 function getTalesOutputTown6() {
     $('#talesTitle').text("Athens");
-    $('#talesData').text("Nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,"+
+    $('#talesData').html("<p>Nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,"+
         "nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur. Sodales nec. Felis sed nec ligula erat fringilla arcu,"+
         "orci et dui phasellus, ut velit ut curabitur donec, nascetur est ut, dolor pellentesque, vehicula orci. Duis egestas nulla,"+
         "nulla ultricies sollicitudin, ipsum duis nisl inceptos nascetur. Sodales nec. Felis sed nec ligula erat fringilla arcu,"+
-        "orci et dui phasellus, ut velit ut curabitur donec.");
+        "orci et dui phasellus, ut velit ut curabitur donec.</p>");
 }
-
-// $('#talesOutputBox').text("Her skal der stå om Athens");
-
 
 //GLOBE GURUS
 //Vienna
 function getGurusOutPutTown1(){
     $('#gurusTitle').text("Vienna");
-    $('#gurusData').text("Showing Dublin's gurus... Loading...");
+    $('#gurusData').html("<div id='viennaContent'>"+
+        "<div class='col-lg-6'>"+
+        "<h3>#globeguru1</h3>"+
+        "<img src='http://www.arabianbusiness.com/incoming/article458225.ece/BINARY/Sir-Richard-Branson.jpg' class='globeguru' alt='Richard Branson'>"+
+        "<h4>Richard Branson</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "<div class='col-lg-6'>"+
+        "<h3>#globeguru2</h3>"+
+        "<img src='http://channingtatum.org/wp-content/uploads/2016/04/channing-tatum.jpg' class='globeguru' alt='Channing Tatum'>"+
+        "<h4>Channing Tatum</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "</div>");
 }
 //London
 function getGurusOutPutTown2(){
@@ -130,25 +146,128 @@ function getGurusOutPutTown2(){
         "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
         "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
         "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
-        "</div>");
+        "</div>"+
+        "<div class='col-lg-3'>"+
+        "<h3>#globeguru3</h3>"+
+        "<img src='http://static2.businessinsider.com/image/57431cad52bcd026008c4814-480/donald-trump.jpg' class='globeguru' alt='trump'>"+
+        "<h4>Donald Trump</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla."+
+        "</p>"+
+        "</div>"+
+        "<div class='col-lg-3'>"+
+        "<h3 class=>#globeguru4</h3>"+
+        "<img src='https://s-media-cache-ak0.pinimg.com/originals/44/7c/a9/447ca9f27b1cf568f57290d68f50cf96.jpg' class='globeguru' alt='elonMusk'>"+
+        "<h4>Elon Musk</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>");
 }
 //Dublin
 function getGurusOutPutTown3(){
     $('#gurusTitle').text("Dublin");
-    $('#gurusData').text("Showing Dublin's gurus... Loading...");
+    $('#gurusData').html("<div id='dublinContent'>"+
+        "<div class='col-lg-4'>"+
+        "<h3>#globeguru1</h3>"+
+        "<img src='http://www.arabianbusiness.com/incoming/article458225.ece/BINARY/Sir-Richard-Branson.jpg' class='globeguru' alt='branson'>"+
+        "<h4>Richard Branson</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "<div class='col-lg-4'>"+
+        "<h3>#globeguru2</h3>"+
+        "<img src='http://channingtatum.org/wp-content/uploads/2016/04/channing-tatum.jpg' class='globeguru' alt='channing'>"+
+        "<h4>Channing Tatum</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "<div class='col-lg-4'>"+
+        "<h3>#globeguru3</h3>"+
+        "<img src='http://channingtatum.org/wp-content/uploads/2016/04/channing-tatum.jpg' class='globeguru' alt='channing'>"+
+        "<h4>Channing Tatum</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "</div>");
 }
 //Copenhagen
 function getGurusOutPutTown4(){
     $('#gurusTitle').text("Copenhagen");
-    $('#gurusData').text("Showing Copenhagen's gurus... Loading...");
+    $('#gurusData').html("<div id='copenhagenContent'>"+
+        "<div class='col-lg-6'>"+
+        "<h3>#globeguru1</h3>"+
+        "<img src='http://www.billedbladet.dk/sites/billedbladet.dk/files/styles/landscape_16-9_8grid/public/media/article/bb-84529_2.jpg' class='globeguru' alt='Margrethe Vestager'>"+
+        "<h4>Margrethe Vestager</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "<div class='col-lg-6'>"+
+        "<h3>#globeguru2</h3>"+
+        "<img src='https://www.floydianslip.com/images/slideshow/photo3.jpg' class='globeguru' alt='Pink Floyd'>"+
+        "<h4>Pink Floyd</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "</div>");
 }
 //Rome
 function getGurusOutPutTown5(){
     $('#gurusTitle').text("Rome");
-    $('#gurusData').text("Showing Rome's gurus... Loading...");
+    $('#gurusData').html("<div id='romeContent'>"+
+        "<div class='col-lg-6'>"+
+        "<h3>#globeguru1</h3>"+
+        "<img src='http://www.arabianbusiness.com/incoming/article458225.ece/BINARY/Sir-Richard-Branson.jpg' class='globeguru' alt='Richard Branson'>"+
+        "<h4>Richard Branson</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "<div class='col-lg-6'>"+
+        "<h3>#globeguru2</h3>"+
+        "<img src='http://channingtatum.org/wp-content/uploads/2016/04/channing-tatum.jpg' class='globeguru' alt='Channing Tatum'>"+
+        "<h4>Channing Tatum</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "</div>");
 }
 //Athens
 function getGurusOutPutTown6(){
     $('#gurusTitle').text("Athens");
-    $('#gurusData').text("Showing Athens' gurus... Loading...");
+    $('#gurusData').html("<div id='athensContent'>"+
+        "<div class='col-lg-6'>"+
+        "<h3>#globeguru1</h3>"+
+        "<img src='http://www.arabianbusiness.com/incoming/article458225.ece/BINARY/Sir-Richard-Branson.jpg' class='globeguru' alt='Richard Branson'>"+
+        "<h4>Richard Branson</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "<div class='col-lg-6'>"+
+        "<h3>#globeguru2</h3>"+
+        "<img src='http://channingtatum.org/wp-content/uploads/2016/04/channing-tatum.jpg' class='globeguru' alt='Channing Tatum'>"+
+        "<h4>Channing Tatum</h4>"+
+        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
+        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
+        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
+        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
+        "</div>"+
+        "</div>");
 }
