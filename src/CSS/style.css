@@ -175,3 +175,8 @@ img.globeguru{
     width: 875px;
     height: 420px;
 }
+
+#floatingTales, #floatingGurus{
+    margin: 80px;
+    margin-right: 10px;
+}

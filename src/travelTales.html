@@ -40,12 +40,12 @@
             <h2>Travel Tales</h2>
 
             <div class="cityButtons">
-                <button type="button" class="btn btn-default" onclick="getTalesOutputTown1()">Vienna</button>
-                <button type="button" class="btn btn-default" onclick="getTalesOutputTown2()">London</button>
-                <button type="button" class="btn btn-default" onclick="getTalesOutputTown3()">Dublin</button>
-                <button type="button" class="btn btn-default" onclick="getTalesOutputTown4()">Copenhagen</button>
-                <button type="button" class="btn btn-default" onclick="getTalesOutputTown5()">Rome</button>
-                <button type="button" class="btn btn-default" onclick="getTalesOutputTown6()">Athens</button>
+                <a href="#cityDescription" type="button" class="btn btn-default" onclick="getTalesOutputTown1()">Vienna</a>
+                <a href="#cityDescription" type="button" class="btn btn-default" onclick="getTalesOutputTown2()">London</a>
+                <a href="#cityDescription" type="button" class="btn btn-default" onclick="getTalesOutputTown3()">Dublin</a>
+                <a href="#cityDescription" type="button" class="btn btn-default" onclick="getTalesOutputTown4()">Copenhagen</a>
+                <a href="#cityDescription" type="button" class="btn btn-default" onclick="getTalesOutputTown5()">Rome</a>
+                <a href="#cityDescription" type="button" class="btn btn-default" onclick="getTalesOutputTown6()">Athens</a>
             </div>
             <div>
                 <img id="europeTravelTales" src="img/Europe-map-marked.png" class="europe-map" alt="Europa" height="550" width="">
@@ -66,8 +66,10 @@
             </div>
         </div>
 
-        <div class="fixed-action-btn">
-            <a class="btn-floating btn-large waves-effect waves-light pink"><i class="material-icons">add</i></a>
+
+        <div id="floatingTales" class="fixed-action-btn">
+            <a  class="btn-floating btn-large waves-effect waves-light pink">
+                <i class="material-icons">add</i></a>
             </a>
             <ul>
                 <li><a class="btn-floating green" data-toggle="modal" data-target="#myModal"><i class="material-icons">mode_edit</i></a></li>
