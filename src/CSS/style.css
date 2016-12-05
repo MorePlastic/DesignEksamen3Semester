@@ -54,24 +54,26 @@ section{
 }
 
 .panel-footer{
-    position: fixed;
+    /*position: fixed;*/
     left: 0px;
-    bottom: 0px;
-    width: 100%;
-    text-align: center;
+    /*bottom: 0px;*/
+    /*width: 100%;*/
+    text-align: right;
+    /*text-align: center;*/
 }
 
 #footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 7%;
-    text-align: right;
+    /*height: 7%;*/
+    /*text-align: right;*/
     margin: 0;
 }
 
 #footerText{
-    margin-top: 13px;
+    margin-top: 10px;
+                /*13*/
 }
 
 .apps{
