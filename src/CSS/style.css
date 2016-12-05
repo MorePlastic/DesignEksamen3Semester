@@ -9,8 +9,6 @@
 #imageText span{
     color: #036b34;
     font-family: 'Indie Flower', cursive;
-    /*font-family: 'Times New Roman', cursive;*/
-    /*text-shadow: 50px 10px 30px grey;*/
 }
 
 #imageText{
@@ -147,7 +145,6 @@ img.globeguru{
 
 #emailForm{
     background-color: white;
-    /*border: solid;*/
     padding: 2.5%;
 }
 
