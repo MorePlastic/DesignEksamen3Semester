@@ -42,6 +42,10 @@
     color: #de499b;
 }
 
+.nav.navbar-nav li a:hover {
+    color: #036b34;
+}
+
 section{
     min-height: 100vh;
     padding-top: 50px;
@@ -91,7 +95,7 @@ section{
 
 #container p{
     font-family: Calibri, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 #container h2{
@@ -179,4 +183,17 @@ img.globeguru{
 #floatingTales, #floatingGurus{
     margin: 80px;
     margin-right: 10px;
+}
+
+/*Tip button*/
+.btn-floating.btn-large.waves-effect.waves-light.pink {
+    background-color: #de499b !important;
+}
+.btn-floating.green {
+    background-color: #036b34 !important;
+}
+
+/*City buttons*/
+.btn.btn-default:hover, .btn-large.btn-default:hover{
+    background-color: #036b34;
 }
