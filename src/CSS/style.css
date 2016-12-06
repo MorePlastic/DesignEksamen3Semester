@@ -55,28 +55,25 @@ section{
     padding-left: 15%;
 }
 
-.panel-footer{
-    left: 0px;
-    text-align: right;
-    /*text-align: center;*/
-}
-
 #footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    /*text-align: right;*/
     margin: 0;
+    left: 0px;
 }
 
 #footerText{
-    margin-top: 15px;
-    margin-right: 80px;
+    margin-top: 6px;
+    font-size: 1.2em;
+    text-align: right;
+    /*text-align: center;*/
 }
 
 .apps{
-    font-size: 2.5em;
+    font-size: 2.0em;
     text-align: left;
+    /*text-align: center;*/
 }
 
 #cityPreview, #app, #contactUs, #globeGurus, #cityDescription, #cityGlobeGurus{
@@ -125,16 +122,6 @@ img.globeguru{
     width: 100%;
 }
 
-/*#globeGurus h3, #globeGurus h4{*/
-    /*text-align: center;*/
-    /*color: #de499b;*/
-/*}*/
-
-#tabPane{
-    display: table;
-    margin: auto;
-}
-
 .btn.btn-default{
     background-color: #de499b;
     color: #ffffff;
@@ -181,8 +168,4 @@ img.globeguru{
 /*City buttons*/
 .btn.btn-default:hover, .btn-large.btn-default:hover{
     background-color: #036b34;
-}
-
-#appLinks{
-    margin-left: 100px;
 }
