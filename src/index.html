@@ -201,41 +201,13 @@
                 <h3>contact@globeguides.com</h3>
                 <p>If you have any questions, you can write them here</p>
                 <div class="col-lg-6 col-lg-offset-3" id="emailForm">
-                    <div>
-                        <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent.</strong></div>
-                        <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs.</strong></div>
-                    </div>
-                    <div id="emailInputs">
-                        <form action="mailto:heri270@hotmail.com" method="post" enctype="text/plain">
-                            <div class="formGroup">
-                                <label>Name:</label>
-                                <div class="inputGroup">
-                                    <input type="text" name="name" placeholder="Enter your name" required>
-                                </div>
-                            </div>
-                            <div class="formGroup">
-                                <label>Email:</label>
-                                <div class="inputGroup">
-                                    <input type="text" name="mail" placeholder="Enter your email" required>
-                                </div>
-                            </div>
-                            <div class="forGroup">
-                                <label>Message:</label>
-                                <div class="inputGroup">
-                                    <textarea class="formGroup" type="textarea" id="message" placeholder="Write your message here" rows="3" required>                                    </textarea>
-                                </div>
-                            </div>
-                            <div class="formGoup">
-                                <input type="submit" value="Send" class="btn btn-info" id="submitButton" >
-                            </div>
-                            <div>
-
-                                <a href="mailto:mathiasvasiliadisspam@gmail.com" type="button" class="btn btn-warning"> Temporary Mail Button </a>
-
-                            </div>
-
-                        </form>
-                    </div>
+                    <form action="mailto:globe@guides.com" method="GET">
+                        <h3>Name & Subject<span class="label label-default"></span></h3>
+                        <p><input name="subject" type="text" /></p>
+                        <p><h3>Message<span class="label label-default"></span></h3></p>
+                       <p><textarea name="body"></textarea></p>
+                        <input type="submit" value="Send" />
+                    </form>
                 </div>
             </div>
         </div>
