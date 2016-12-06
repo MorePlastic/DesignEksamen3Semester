@@ -16,7 +16,7 @@
     top: 40px;
     left: 0;
     width: 100%;
-    font-size: 10rem;
+    font-size: 10em;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -56,10 +56,7 @@ section{
 }
 
 .panel-footer{
-    /*position: fixed;*/
     left: 0px;
-    /*bottom: 0px;*/
-    /*width: 100%;*/
     text-align: right;
     /*text-align: center;*/
 }
@@ -68,20 +65,17 @@ section{
     position: fixed;
     bottom: 0;
     width: 100%;
-    /*height: 7%;*/
     /*text-align: right;*/
     margin: 0;
 }
 
 #footerText{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-right: 80px;
-
-    /*13*/
 }
 
 .apps{
-    font-size: 2.0em;
+    font-size: 2.5em;
     text-align: left;
 }
 
@@ -95,19 +89,26 @@ section{
 
 #container p{
     font-family: Calibri, sans-serif;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 
 #container h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
+    font-size: 3.5em;
     padding-bottom: 35px;
     color: #036b34;
 }
 
 #container h3{
     font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
     color: #de499b;
+}
+
+#container h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: #036b34;
 }
 
 .noPadding{
@@ -124,10 +125,10 @@ img.globeguru{
     width: 100%;
 }
 
-#globeGurus h3, #globeGurus h4{
-    text-align: center;
-    color: #de499b;
-}
+/*#globeGurus h3, #globeGurus h4{*/
+    /*text-align: center;*/
+    /*color: #de499b;*/
+/*}*/
 
 #tabPane{
     display: table;
@@ -159,25 +160,10 @@ img.globeguru{
     height:50%;
 }
 
-#carousel-billed-1{
-    width: 875px;
-    height: 420px;
-}
-
-#carousel-billed-2{
-    width: 875px;
-    height: 420px;
-}
-
-#carousel-billed-3{
-    width: 875px;
-    height: 420px;
-}
-
-#carousel-billed-4{
-    width: 875px;
-    height: 420px;
-}
+/*#carousel-billed-1, #carousel-billed-2, #carousel-billed-3, #carousel-billed-4{*/
+    /*width: 875px;*/
+    /*height: 420px;*/
+/*}*/
 
 #floatingTales, #floatingGurus{
     margin: 80px;
@@ -199,5 +185,4 @@ img.globeguru{
 
 #appLinks{
     margin-left: 100px;
-
 }
