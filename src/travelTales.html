@@ -85,9 +85,13 @@
                         <h4 class="modal-title">Give us a tip</h4>
                     </div>
                     <div class="modal-body">
-                        <p>Give us a tip about .......</p>
-                        <p><a href="mailto:mathiasvasiliadisspam@gmail.com?subject=TIP&body=Write your tip here!"  class="btn waves-effect waves-light" type="submit" name="action">Submit
-                            <i class="material-icons right">send</i></a></button>
+                        <form action="mailto:globe@guides.com" method="GET">
+                            <h3>Name & Subject<span class="label label-default"></span></h3>
+                            <p><input name="subject" type="text" /></p>
+                            <p><h3>Message<span class="label label-default"></span></h3></p>
+                            <p><input name="body" type="text" /></p>
+                            <input type="submit" class="btn btn-success" value="Send" />
+                        </form>
                         </p>
                     </div>
                     <div class="modal-footer">

@@ -75,7 +75,9 @@ section{
 
 #footerText{
     margin-top: 10px;
-                /*13*/
+    margin-right: 80px;
+
+    /*13*/
 }
 
 .apps{
@@ -193,4 +195,9 @@ img.globeguru{
 /*City buttons*/
 .btn.btn-default:hover, .btn-large.btn-default:hover{
     background-color: #036b34;
+}
+
+#appLinks{
+    margin-left: 100px;
+
 }
