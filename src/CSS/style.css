@@ -44,6 +44,10 @@
     color: #036b34;
 }
 
+#tabs{
+    font-size: 1.1em;
+}
+
 section{
     min-height: 100vh;
     padding-top: 50px;
