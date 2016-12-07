@@ -106,20 +106,20 @@ function getGurusOutPutTown1(){
 //London
 function getGurusOutPutTown2(){
     $('#gurusTitle').text("London");
-    $('#gurusData').html("<div class='col-lg-6'>"+
-            "<h3>#CecilieSkree</h3>"+
-        "<img src='img/lady.png' class='globeguru' alt='snowden'>"+
-            "<h4>Cecilie Skree</h4>"+
-        "<p><b> Age: 24</b></p>" +
-        "<p><b>Occupation: Full time worker at the union</b></p>" +
+    $('#gurusData').html("<div class='col-lg-12'>"+
+        // "<h3>Cecilie Skree</h3>"+
+        "<img src='img/lady.png' class='globeguru' alt='unknown'>"+
+        "<h3>Cecilie Skree</h3>"+
+        "<p><b>Age: 24</b></p>" +
+        "<p><b>Occupation: Full time worker at the Union</b></p>" +
         "<p><b>Social: @cecilieskree</b></p>" +
-        "<p><b>TOP 3 sights in London</b></p>" +
-        "<p>1) Walk by the Thames from London Eye to Tower Bridge.</p>" +
-        "<p>* Every time i visit London I always take this route." +
-        "It is a three-kolometre long walk but it will take you" +
+        "<h3>Top 3 sights in London</h3>" +
+            "<h4>1) Walk by the Thames from London Eye to Tower Bridge</h4>" +
+            "<p>Every time i visit London I always take this route." +
+        "It is a three-kilometre long walk but it will take you" +
         "several hours if you want to experience all attractions" +
         "on the road. For starter, you can use unusually many" +
-        "minutes to admire the British parliament building," +
+        "minutes to admire the British parliament building, " +
         "Westminster. On the trip to Tower Bridge, you will" +
         "find the National Theatre, street performers, a flea" +
         "market with books, CDs and VHS tapes, Millennium" +
@@ -127,14 +127,22 @@ function getGurusOutPutTown2(){
         "modern art, Shakespeare, The Globe, London Bridge," +
         "Southwark Cathedral, Borough market and of course" +
         "the Tower Bridge. There is something for every taste" +
-        "and i am sure you will, as a minimum, love the fresh" +
-        "breeze from the thames</p>"+
-        "</div>" +
-        "<div class='col-lg-6'>"+
-        "<h3>#globeguru2</h3>"+
-        "<img src='img/male.png' class='globeguru' alt='channing'>"+
-        "<h4>Globe Guru 2</h4>"+
-        "<p></p>"+
+        "and I am sure you will, as a minimum, love the fresh" +
+        "breeze from the Thames.</p>"+
+            "<h4>2) Camden</h4>"+
+            "<p>Camden is for me a sancuary just as it is for many others. " +
+        "Here is not looked askance at you and you are always greeted with a smile. " +
+        "You can taste delicacies food from all corners of the world and uo can where you go smell a mild incense fragrance. " +
+        "I love to walk through Camden and observe all different cultues that meet at one place, " +
+        "and it is therefore a must for me to visit Camden when I am in London.</p>" +
+            "<h4>3) Watch a musical</h4>"+
+            "<p>I have seen many misucals in London. " +
+        "I myself am a big fan of musicals but even if you are not the biggest fan I will say it is still worth seeing one 'in real life' " +
+        "because it is a big part of London's identity. Not least in order to be admired by the whole setup. " +
+        "There are always running a countless of different musicals and there is something for everyone. " +
+        "From the though-composed for the very humorous comedies. " +
+        "You can not walk aeound in the city without encountering a tichet office and there are prices so everyone can participate, " +
+        "but of course the cheaper the worse seats can be.</p>"+
         "</div>");
 }
 //Dublin
