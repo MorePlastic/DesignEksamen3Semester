@@ -106,42 +106,36 @@ function getGurusOutPutTown1(){
 //London
 function getGurusOutPutTown2(){
     $('#gurusTitle').text("London");
-    $('#gurusData').html("<div class='col-lg-3'>"+
-            "<h3>#globeguru1</h3>"+
-        "<img src='http://a3.files.biography.com/image/upload/c_fit,cs_srgb,dpr_1.0,q_80,w_620/MTQxNDkyNTA3MzY3MTg4MjE5.jpg' class='globeguru' alt='snowden'>"+
-            "<h4>Edward Snowden</h4>"+
-        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
-            "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
-            "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
-            "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
-        "</div>"+
-        "<div class='col-lg-3'>"+
+    $('#gurusData').html("<div class='col-lg-6'>"+
+            "<h3>#CecilieSkree</h3>"+
+        "<img src='img/lady.png' class='globeguru' alt='snowden'>"+
+            "<h4>Cecilie Skree</h4>"+
+        "<p><b> Age: 24</b></p>" +
+        "<p><b>Occupation: Full time worker at the union</b></p>" +
+        "<p><b>Social: @cecilieskree</b></p>" +
+        "<p><b>TOP 3 sights in London</b></p>" +
+        "<p>1) Walk by the Thames from London Eye to Tower Bridge.</p>" +
+        "<p>* Every time i visit London I always take this route." +
+        "It is a three-kolometre long walk but it will take you" +
+        "several hours if you want to experience all attractions" +
+        "on the road. For starter, you can use unusually many" +
+        "minutes to admire the British parliament building," +
+        "Westminster. On the trip to Tower Bridge, you will" +
+        "find the National Theatre, street performers, a flea" +
+        "market with books, CDs and VHS tapes, Millennium" +
+        "Bridge, Tate Modern, the national museum of" +
+        "modern art, Shakespeare, The Globe, London Bridge," +
+        "Southwark Cathedral, Borough market and of course" +
+        "the Tower Bridge. There is something for every taste" +
+        "and i am sure you will, as a minimum, love the fresh" +
+        "breeze from the thames</p>"+
+        "</div>" +
+        "<div class='col-lg-6'>"+
         "<h3>#globeguru2</h3>"+
-        "<img src='http://www.seoghoer.dk/sites/seoghoer.dk/files/media/94fad9e00f7442ef9f3d9c9efb010e2c.jpg' class='globeguru' alt='fieLaursen'>"+
-        "<h4>Fie Laursen</h4>"+
-        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
-        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
-        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
-        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>"+
-        "</div>"+
-        "<div class='col-lg-3'>"+
-        "<h3>#globeguru3</h3>"+
-        "<img src='http://static2.businessinsider.com/image/57431cad52bcd026008c4814-480/donald-trump.jpg' class='globeguru' alt='trump'>"+
-        "<h4>Donald Trump</h4>"+
-        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
-        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
-        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
-        "curabitur sed duis tempor eu eget in, ante et sit nulla."+
-        "</p>"+
-        "</div>"+
-        "<div class='col-lg-3'>"+
-        "<h3 class=>#globeguru4</h3>"+
-        "<img src='https://s-media-cache-ak0.pinimg.com/originals/44/7c/a9/447ca9f27b1cf568f57290d68f50cf96.jpg' class='globeguru' alt='elonMusk'>"+
-        "<h4>Elon Musk</h4>"+
-        "<p>Praesent vulputate ut a, massa et mauris nostra ut. Sed tincidunt consectetuer nam nulla aliquam magna,"+
-        "orci purus at ac tempor quam euismod, lacus non pellentesque nam, sed sed eros, nibh lectus adipiscing pede."+
-        "Nisl morbi, sed condimentum egestas rhoncus, consectetuer nulla velit ante. Quisque arcu libero dui, adipiscing suspendisse sapien lobortis quis,"+
-        "curabitur sed duis tempor eu eget in, ante et sit nulla. Aut vel luctus ut ullamcorper luctus in, a nullam mi porta dolor.</p>");
+        "<img src='img/male.png' class='globeguru' alt='channing'>"+
+        "<h4>Globe Guru 2</h4>"+
+        "<p></p>"+
+        "</div>");
 }
 //Dublin
 function getGurusOutPutTown3(){
